@@ -6,7 +6,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 
-PDF_PATH = "digital_marketing_rag_practical-3.pdf"
+PDF_PATH = "digital_marketing_rag_practical-3 (2).pdf"
 BOT_NAME = "Digital Marketing Assistant"
 
 os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
